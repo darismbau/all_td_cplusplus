@@ -8,9 +8,6 @@
 
 using namespace std;
 
-void afficher(string imprimer) {
-    cout << imprimer << endl;
-}
 
 int main() {
     cout << "Hello world" << endl;
