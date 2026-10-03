@@ -5,18 +5,19 @@
 #ifndef TD1_CLASS_H
 #define TD1_CLASS_H
 #include <string>
+#include <iostream>
 using namespace std;
 
 
-class Myclass {
-private:
-    string string;
+class My_class {
 public:
-    Myclass() {
-        string = "Hello World!";
-    }
-    void printmhyelement() {
-    }
+    My_class();
+    My_class(string valeur);
+
+    void print_my_element();
+
+private:
+    string imprimer;
 };
 
 #endif //TD1_CLASS_H

@@ -4,9 +4,9 @@
 #include <iostream>
 #include <string>
 #include "afficher.h"
+#include "class.h"
 
 using namespace std;
-
 
 void afficher(string imprimer) {
     cout << imprimer << endl;
@@ -15,5 +15,10 @@ void afficher(string imprimer) {
 int main() {
     cout << "Hello world" << endl;
     afficher("Hello world again !");
+
+    My_class a;
+    My_class b("Hello constructeur !");
+    b.print_my_element();            //a et b sont des objets de la classe My_class
+
     return 0;
 }
