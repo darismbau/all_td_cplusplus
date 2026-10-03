@@ -2,8 +2,11 @@
 // Created by darius on 28/09/2026.
 //
 #include <iostream>
-using namespace std;
 #include <string>
+#include "afficher.h"
+
+using namespace std;
+
 
 void afficher(string imprimer) {
     cout << imprimer << endl;
