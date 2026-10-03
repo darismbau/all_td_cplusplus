@@ -1,20 +1,16 @@
 //
 // Created by darius on 28/09/2026.
 //
-
-#include "main.h"
 #include <iostream>
 using namespace std;
+#include <string>
 
-void afficher(string str) {
-    cout<< str;
+void afficher(string imprimer) {
+    cout << imprimer << endl;
 }
 
 int main() {
-    cout << "Hello world!";
-    afficher("Hello ensisa");
+    cout << "Hello world" << endl;
+    afficher("Hello world again !");
     return 0;
 }
-
-
-
