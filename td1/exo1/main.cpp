@@ -15,6 +15,7 @@ int main() {
 
     My_class a;
     My_class b("Hello constructeur !");
+    a.print_my_element();
     b.print_my_element();            //a et b sont des objets de la classe My_class
 
     return 0;
