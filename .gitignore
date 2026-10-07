@@ -1,5 +1,16 @@
-cmake-build-*/
-build/
-.idea/
-main
+# ignore tout fichier (les exécutables compilés n'ont pas d'extension)
+*
+# mais garde tous les dossiers
+!*/
+# et tout fichier avec une extension (.cpp, .h, .pdf, .md, .txt...)
+!*.*
+# sauf les fichiers compilés qui en ont une
+*.o
+*.out
 *.exe
+# garde les scripts sans extension
+!go
+!Makefile
+# fichiers générés par CLion (après !*/ sinon la règle serait annulée)
+cmake-build-*/
+.idea/
