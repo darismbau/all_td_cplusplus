@@ -3,12 +3,13 @@
 
 #include <string>
 
-class Card {
+class Card
+{
 protected:
     std::string cardName;
 
 public:
-    Card(const std::string& name);
+    Card(const std::string &name);
     virtual ~Card();
 
     // Fonction virtuelle pure : chaque type de carte affiche ses propres infos
